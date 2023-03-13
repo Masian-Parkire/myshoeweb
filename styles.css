@@ -1,0 +1,501 @@
+.container{
+    background-image: url(/images/bg_720.png);
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+/* .topnav ul li{
+    display: inline-block;
+    gap: 2rem;
+    padding: 30px;
+    margin-left: 20px;
+    display: flex;
+} */
+.top1 ul li{
+    text-align: justify;
+    margin-top: -2%;
+    font-size: large;
+    display: inline-block;
+    padding: 2em;
+}
+.top2 ul li{
+    text-align: justify;
+    position: relative;
+    left: 800px;
+    list-style: none;
+    bottom: 110px;
+    padding: 40px;
+    float: left;
+
+}
+.fixit{
+    color: brown;
+}
+.best{
+    text-align: center;
+    font-weight:bolder;
+    font-size: 25px;
+
+
+}
+
+.bodys{
+    display: flex;
+}
+
+.A{
+    height: 80%;
+    width: 80%;
+    background-image: linear-gradient(to bottom,lightblue,blue);
+    border-radius: 30%;
+}
+.B{
+    height: 80%;
+    width: 80%;
+    background-image: linear-gradient(to bottom,blue,red);
+    border-radius: 30%;
+}
+.C{
+    height: 80%;
+    width: 80%;
+    background-image: linear-gradient(to bottom,lightblue,red);
+    border-radius: 30%;
+}
+.puma{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(233, 222, 208);
+    border-radius: 15%;
+}
+.Nike{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(233, 222, 208);
+    border-radius: 15%;
+}
+
+.Adidas{
+    display: flex;
+    gap: 2rem;
+    background-color: rgb(233, 222, 208);
+    border-radius: 15%;
+}
+
+.main{
+    display: flex;
+    gap: 4rem;
+}
+.fix{
+    font-size: larger;
+    font-weight: bolder;
+    font-style: normal;
+}
+.feat{
+    text-align: center;
+    font-size: larger;
+    font-weight: bolder;
+}
+.kids{
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+    gap: 2rem;
+}
+.E{
+    height:50%;
+    width: 50%;
+}
+.F{
+    height: 50%;
+    width: 50%;
+}
+.G{
+    height: 50%;
+    width: 50%;
+}
+.H{
+    height: 50%;
+    width: 50%;
+}
+.products{
+    display: flex;
+    gap: 4rem;
+}
+.b2{
+    border-radius: 50%;
+    background-color: red;
+    color: antiquewhite;
+    padding: 12px;
+    padding-top: 12px;
+
+}
+.b1{
+    background-color: red;
+    color: antiquewhite;
+    border-radius: 12px;
+    padding: 12px;
+}
+.fly{
+    position: relative;
+    padding-bottom: 50px;
+}
+.red{
+    height: 50%;
+    width: 50%;
+}
+.yellow{
+    height: 50%;
+    width: 50%;  
+}
+.black{
+    height: 50%;
+    width: 50%;
+}
+.blue{
+    height: 50%;
+    width: 50%;
+}
+.everything{
+    display: flex;
+    gap: 4rem;
+}
+.see{
+    text-align: center;
+    font-size: larger;
+    color: red;
+}
+.arrive{
+    text-align: center;
+    font-size: larger;
+}
+.masian{
+    display: flex;
+}
+.Special{
+    /* margin-left: 45px;
+    margin-top: -20px; */
+    position: relative;
+    right: 90px;
+}
+.offer{
+    /* margin-left: 45px;
+    margin-top: -20px; */ 
+    position: relative;
+    right: 90px;
+
+}
+.white1{
+    width: 100%;
+    height: 100%;
+    padding-left: 40px;
+}
+.hope{
+    display: flex;
+    padding-right: 20px;
+    
+}
+.black2{
+    width: 100%;
+    height: 100%;
+}
+.ada{
+    display: flex;
+    padding-right: 20px;
+}
+.man{
+    display: flex;
+    gap: 25rem;
+}
+
+.words2{
+    text-align: center;
+}
+.ann{
+    width: 20%;
+    border-radius: 50%;
+}
+.pink{
+    padding-top: 5%;
+    text-align: center;
+    margin-bottom: -100px;
+    background-color: palevioletred;
+    margin-left: 250px;
+    margin-right: 250px;
+    border-radius: 30px;
+    }
+    
+
+    .footer{
+        display: flex;
+        gap: 5em;
+        background-color: red;
+        color: white;
+        margin-top: 5%;
+        
+    }
+    li{
+        list-style: none;
+    }
+    .sub{
+        background-color: rgb(221, 20, 20);
+        border-radius: 30px;
+
+    }
+    .jp{
+        width: 60%;
+    }
+    .eg{
+        width: 60%;
+    }
+    .spe{
+        color: red;
+    }
+    .al{
+        color: red;
+    }
+    .mon{
+        color: red;
+    }
+    .v1{
+        color: white;
+        background-color: red;
+    }
+    .v2{
+        color: white;
+        background-color: red;
+    }
+    .v3{
+        color: white;
+        background-color: red;
+    }
+    .words{
+        margin-right: 8px;
+        width: 75%;
+    }
+    .fly{
+        display: inline-flex;
+        margin-left: 40%;
+        margin-top: -30%;
+    }
+    .game{
+        width: 700px;
+        height: 600px;
+    }
+    .sem{
+        border: solid red;
+        color: red;
+    }
+    .feet{
+        background-color: red;
+    }
+    .last{
+        color: white;
+        text-align: center;
+    }
+    .goog{
+        border-radius: 30px; 
+        color: white;
+        background-color: black;
+    }
+    .sto{
+        border-radius: 30px;
+        color: white;
+        background-color: black;
+    }
+    .bn{
+     background-color: red;
+     color: white;
+     border-radius: 30px;
+    }
+    .at{
+        border: solid red;
+        border-radius: 30px;
+        
+    }
+    .ow{
+        background-color: red;
+     color: white;
+     border-radius: 30px;
+    }
+    .art{
+        border: solid red;
+        border-radius: 30px;
+    }
+    .home{
+        color: brown;
+    }
+    .h{
+        font-size: 200%;
+    }
+    .phot{
+        position: relative;
+        left: 19px;
+        box-shadow: 0 12px 0 rgba(0,0,0,24),0 17px 50px 0 rgba(0, 0, 0, 19);
+        border-radius: 36px;
+    }
+    .doll{
+        color: red;
+    }
+    .dolly{
+        color: red;
+    }
+    .sian1{
+        background-color: whitesmoke;
+    }
+    .sian2{
+        background-color: whitesmoke;
+    }
+    .sian3{
+        background-color: whitesmoke;
+    }
+    .sian4{
+        background-color: whitesmoke;
+    }
+    .sian6{
+        background-color: whitesmoke;
+    }
+    .sian7{
+        background-color: whitesmoke;
+    }
+    .sian8{
+        background-color: whitesmoke;
+    }
+    .quick{
+        font-size: 100%;
+        position: relative;
+        right: 420px;
+    }
+    body{
+        overflow-x: hidden;
+        overflow-y: scroll;
+        background-color: rgb(245, 239, 239);
+    }
+    .topy ul li{
+        text-align: justify;
+        margin-top: -2%;
+        font-size: large;
+        display: inline-block;
+        padding: 2em;
+    }
+    .topo ul li{
+        text-align: justify;
+        position: relative;
+        left: 800px;
+        list-style: none;
+        bottom: 110px;
+        padding: 40px;
+        float: left;  
+    }
+    .homes{
+        position: relative;
+        right: 400px;
+    }
+    
+    .select{
+        display: flex;
+        gap: 4rem;
+        margin-left: 60px;
+    }
+    .air{
+        width: 150px;
+        height: 100px;
+    }
+    .air2{
+        width: 150px;
+        height: 100px;
+    }
+    .air3{
+        width: 150px;
+        height: 100px;
+    }
+    .min{
+        color: lightcoral;
+    }
+    .of{
+        color: lightcoral;
+    }
+    .ze{
+        color: lightcoral;  
+    }
+    .s{
+        border-radius: 200%;
+        background-color: red;
+        height: 5px;
+        width: 5px;
+    }
+    .or{
+        border: solid red;
+        color: red;
+        width: 150px;
+        height: 30px;
+    }
+    .dd{
+        width: 150px;
+        height: 30px; 
+        background-color: red;
+        color: white;
+    }
+    .rem{
+        padding-bottom: 200px;
+        background-color: whitesmoke;
+        border-radius: 15%;
+    }
+    .sim{
+        text-align: center;
+        font-weight: bolder;
+    }
+    .down{
+        width: 400px;
+    }.sian11{
+        background-color: whitesmoke;
+    }
+    .sian12{
+        background-color: whitesmoke;
+    }
+    .sian13{
+        background-color: whitesmoke;
+    }
+    .sian14{
+        background-color: whitesmoke;
+    }
+    .Ei{
+        height:50%;
+        width: 50%;
+    }
+    .Fi{
+        height: 50%;
+        width: 50%;
+    }
+    .Gi{
+        height: 50%;
+        width: 50%;
+    }
+    .Hi{
+        height: 50%;
+        width: 50%;
+    }
+    .produ{
+        display: flex;
+        gap: 4rem;
+        margin-left: 60px;
+    }
+    .feett{
+        background-color: red;
+    }
+    .lasti{
+        color: white;
+        text-align: center;
+    }
+    .footerr{
+        display: flex;
+        gap: 5em;
+        background-color: red;
+        color: white;
+        margin-top: 5%;
+        
+    }
+
+
+    
+    
