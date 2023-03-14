@@ -495,7 +495,22 @@
         margin-top: 5%;
         
     }
+    .rate{
+        font-size: 15px;
+        font-weight: 100;
 
+    }
+    /* @media  {
+        
+    } */
+/* .select{
+    margin-top: 10px;
+    float: left;
+    height: 600px;
+    width: 250px;
+    background-color: rgb(241, 40, 90);
+    border-radius: 1550px/ 0px, 1250px, 4550px,1500px;
+} */
 
     
     
