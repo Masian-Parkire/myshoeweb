@@ -1,4 +1,4 @@
-@media only screen and (max-width :1200px){
+/* @media only screen and (max-width :1200px){
     .topnav{
         display: grid;
         grid-template-columns: repeat(1,1fr);
@@ -37,4 +37,795 @@
         grid-template-columns: repeat(5,1fr);
     }
 
+} */
+/* @media all and (min-width:1024px) and (max-width:1280px){
 }
+@media all and (min-width:768px) and (max-width:1024px){
+}
+@media all and (min-width:480px) and (max-width:768px){
+}
+@media all and (min-width:480px) {
+}
+@media only screen and(min-width:40.063em) and (max-width:64em){
+}
+@media only screen and (min-width:64.063em) and (max-width:90em){
+}
+@media only screen and(min-width:90.063em) and (max-width:120em){
+}
+@media only screen and (min-width:120.063em){
+}
+@media screen and (oriented:portrait){
+}
+@media screen and (oriented:landscape){
+}
+@media  screen and(mix-device-width:480px) and (oriented:potrait){
+}
+@media  screen and(max-device-width:480px) and (oriented:landscape){
+}
+@media screen and (min-device-width:481px) and (orientation:portrait){
+}
+@media screen and (min-device-width:481px) and (orientation:landscape){
+} */
+@media only screen and (max-width:700px){
+
+    .body{
+        overflow-x: hidden;
+    }
+    .container{
+        background-image: url(/images/bg_720.png);
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    /* .topnav ul li{
+        display: inline-block;
+        gap: 2rem;
+        padding: 30px;
+        margin-left: 20px;
+        display: flex;
+    } */
+    .top1 ul li{
+        text-align: justify;
+        margin-top: -2%;
+        font-size: large;
+        display: inline-block;
+        padding: 2em;
+    }
+    .top2 ul li{
+        text-align: justify;
+        position: relative;
+        left: 800px;
+        list-style: none;
+        bottom: 110px;
+        padding: 40px;
+        float: left;
+    
+    }
+    .topnav{
+    }
+    .fixit{
+        color: brown;
+    }
+    .best{
+        text-align: center;
+        font-weight:bolder;
+        font-size: 25px;
+    
+    
+    }
+    
+    .bodys{
+        display: flex;
+    }
+    
+    /* .A{
+        height: 80%;
+        width: 40%;
+        background-image: linear-gradient(to bottom,lightblue,blue);
+        border-radius: 30%;
+    }
+    .B{
+        height: 80%;
+        width: 40%;
+        background-image: linear-gradient(to bottom,blue,red);
+        border-radius: 30%;
+    }
+    .C{
+        height: 80%;
+        width: 80%;
+        background-image: linear-gradient(to bottom,lightblue,red);
+        border-radius: 30%;
+    }
+    .puma{
+        display: flex;
+        gap: 2rem;
+        background-color: rgb(233, 222, 208);
+        border-radius: 15%;
+        width: 20%;
+        height: 120px;
+        
+        /* margin-right: 40px; */
+    /* } */
+    
+    .Bigform{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    
+    .form1{
+        margin-right: 24.5px;
+        border: solid white;
+        background-color: white;
+        display: flex;
+        width: 35%;
+        height: 81px;
+        padding-right: 10px;
+        border-radius: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: left;
+        margin-left: 40px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    .form2{
+        border: solid white;
+        background-color: white;
+        height: 81px;
+        display: flex;
+        width: 35%;
+        margin-left: 25px;
+        border-radius: 18px;
+        text-align: left;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+    .form3{
+        border: solid white;
+        background-color: white;
+        display: flex;
+        padding-right: 10px;
+        width: 35%;
+        height: 81px;
+        border-radius: 18px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+        text-align: left;
+        margin-right: 45px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+    
+    #shoe1{
+        width: 75px;
+        height: 80px;
+        padding-right: 7.5px;
+        border-radius: 18px;
+    }
+    #shoe2{
+        width: 75px;
+        height: 80px;
+        padding-right:7.5px;
+        border-radius: 18px;
+    }
+    #shoe3{
+        width: 75px;
+        height: 80px;
+        padding-right: 7.5px;
+        border-radius: 18px;
+    }
+    .Nike{
+        display: flex;
+        gap: 1rem;
+        width: 10%;
+        height: 75px;
+        background-color: rgb(233, 222, 208);
+        border-radius: 7.5%;
+    }
+    
+    .Adidas{
+        display: flex;
+        width: 10%;
+        height: 75px;
+        gap: 1rem;
+        background-color: rgb(233, 222, 208);
+        grid-column: 1/3;
+        border-radius: 7.5%;
+    }
+    
+    .main{
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: repeat (3,1fr);
+        /* gap: 4rem; */
+    } */
+    .fix{
+        font-size: larger;
+        font-weight: bolder;
+        font-style: normal;
+    }
+    .feat{
+        text-align: center;
+        font-size: larger;
+        font-weight: bolder;
+    }
+    .kids{
+        display: flex;
+        font-size: larger;
+        font-weight: bolder;
+        gap: 1rem;
+    }
+    .E{
+        height:25%;
+        width: 25%;
+    }
+    .F{
+        height: 25%;
+        width: 25%;
+    }
+    .G{
+        height: 25%;
+        width: 25%;
+    }
+    .H{
+        height: 25%;
+        width: 25%;
+    }
+    .products{
+        display: flex;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .b2{
+        border-radius: 25%;
+        background-color: red;
+        color: antiquewhite;
+        padding: 6px;
+        padding-top: 6px;
+    
+    }
+    .b1{
+        background-color: red;
+        color: antiquewhite;
+        border-radius: 6px;
+        padding: 6px;
+    }
+    .fly{
+        position: relative;
+        padding-bottom: 25px;
+    }
+    .red{
+        height: 25%;
+        width: 25%;
+    }
+    .yellow{
+        height: 25%;
+        width: 25%;  
+    }
+    .black{
+        height: 25%;
+        width: 25%;
+    }
+    .blue{
+        height: 25%;
+        width: 25%;
+    }
+    .everything{
+        display: flex;
+        gap: 2rem;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .see{
+        text-align: center;
+        font-size: larger;
+        color: red;
+    }
+    .arrive{
+        text-align: center;
+        font-size: larger;
+    }
+    .masian{
+        display: flex;
+    }
+    .Special{
+        /* margin-left: 45px;
+        margin-top: -20px; */
+        position: relative;
+        right: 45px;
+    }
+    .offer{
+        /* margin-left: 45px;
+        margin-top: -20px; */ 
+        position: relative;
+        right: 45px;
+    
+    }
+    .white1{
+        width: 50%;
+        height: 50%;
+        padding-left: 20px;
+    }
+    .hope{
+        display: flex;
+        padding-right: 20px;
+        
+    }
+    .black2{
+        width: 50%;
+        height: 50%;
+    }
+    .ada{
+        display: flex;
+        padding-right: 10px;
+    }
+    .man{
+        display: flex;
+        gap: 7.5rem;
+    }
+    
+    .words2{
+        text-align: center;
+    }
+    .ann{
+        width: 10%;
+        border-radius: 10%;
+    }
+    .pink{
+        padding-top: 2.5%;
+        text-align: center;
+        margin-bottom: -50px;
+        background-color: palevioletred;
+        margin-left: 125px;
+        margin-right: 125px;
+        border-radius: 15px;
+        }
+        
+    
+        .footer{
+            display: flex;
+            gap: 2.5em;
+            background-color: red;
+            color: white;
+            margin-top: 2.5%;
+            
+        }
+        li{
+            list-style: none;
+        }
+        .sub{
+            background-color: rgb(221, 20, 20);
+            border-radius: 15px;
+    
+        }
+        .jp{
+            width: 30%;
+        }
+        .eg{
+            width: 30%;
+        }
+        .spe{
+            color: red;
+        }
+        .al{
+            color: red;
+        }
+        .mon{
+            color: red;
+        }
+        .v1{
+            color: white;
+            background-color: red;
+        }
+        .v2{
+            color: white;
+            background-color: red;
+        }
+        .v3{
+            color: white;
+            background-color: red;
+        }
+        .words{
+            margin-right: 4px;
+            width: 37.5%;
+        }
+        .fly{
+            display: inline-flex;
+            margin-left: 20%;
+            margin-top: -15%;
+        }
+        .game{
+            width: 350px;
+            height: 300px;
+        }
+        .sem{
+            border: solid red;
+            color: red;
+        }
+        .feet{
+            background-color: red;
+        }
+        .last{
+            color: white;
+            text-align: center;
+        }
+        .goog{
+            border-radius: 15px; 
+            color: white;
+            background-color: black;
+        }
+        .sto{
+            border-radius: 15px;
+            color: white;
+            background-color: black;
+        }
+        .bn{
+         background-color: red;
+         color: white;
+         border-radius: 15px;
+        }
+        .at{
+            border: solid red;
+            border-radius: 15px;
+            
+        }
+        .ow{
+            background-color: red;
+         color: white;
+         border-radius: 15px;
+        }
+        .art{
+            border: solid red;
+            border-radius: 15px;
+        }
+        .home{
+            color: brown;
+        }
+        .h{
+            font-size: 100%;
+        }
+        .phot{
+            position: relative;
+            left: 8.5px;
+            box-shadow: 0 12px 0 rgba(0,0,0,24),0 17px 50px 0 rgba(0, 0, 0, 19);
+            border-radius: 18px;
+        }
+        .doll{
+            color: red;
+        }
+        .dolly{
+            color: red;
+        }
+        .sian1{
+            background-color: whitesmoke;
+        }
+        .sian2{
+            background-color: whitesmoke;
+        }
+        .sian3{
+            background-color: whitesmoke;
+        }
+        .sian4{
+            background-color: whitesmoke;
+        }
+        .sian5{
+            background-color: whitesmoke;
+        }
+        .sian6{
+            background-color: whitesmoke;
+        }
+        .sian7{
+            background-color: whitesmoke;
+        }
+        .sian8{
+            background-color: whitesmoke;
+        }
+        .quick{
+            font-size: 50%;
+            position: relative;
+            right: 210px;
+        }
+        body{
+            overflow-x: hidden;
+            overflow-y: scroll;
+            background-color: rgb(245, 239, 239);
+        }
+        .topy ul li{
+            text-align: justify;
+            margin-top: -1%;
+            font-size: large;
+            display: inline-block;
+            padding: 1em;
+        }
+        .topo ul li{
+            text-align: justify;
+            position: relative;
+            left: 400px;
+            list-style: none;
+            bottom: 55px;
+            padding: 20px;
+            float: left;  
+        }
+        .homes{
+            position: relative;
+            right: 200px;
+        }
+        
+        .select{
+            display: flex;
+            gap: 2rem;
+            margin-left: 30px;
+        }
+        .air{
+            width: 75px;
+            height: 50px;
+        }
+        .air2{
+            width: 75px;
+            height: 50px;
+        }
+        .air3{
+            width: 75px;
+            height: 50px;
+        }
+        .min{
+            color: lightcoral;
+        }
+        .of{
+            color: lightcoral;
+        }
+        .ze{
+            color: lightcoral;  
+        }
+        .s{
+            border-radius: 100%;
+            background-color: red;
+            height: 2.5px;
+            width: 2.5px;
+        }
+        .or{
+            border: solid red;
+            color: red;
+            width: 75px;
+            height: 15px;
+        }
+        .dd{
+            width: 75px;
+            height: 15px; 
+            background-color: red;
+            color: white;
+        }
+        .rem{
+            padding-bottom: 100px;
+            background-color: whitesmoke;
+            border-radius: 7.5%;
+        }
+        .sim{
+            text-align: center;
+            font-weight: bolder;
+        }
+        .down{
+            width: 200px;
+        }.sian11{
+            background-color: whitesmoke;
+        }
+        .sian12{
+            background-color: whitesmoke;
+        }
+        .sian13{
+            background-color: whitesmoke;
+        }
+        .sian14{
+            background-color: whitesmoke;
+        }
+        .Ei{
+            height:25%;
+            width: 25%;
+        }
+        .Fi{
+            height: 25%;
+            width: 25%;
+        }
+        .Gi{
+            height: 25%;
+            width: 25%;
+        }
+        .Hi{
+            height: 25%;
+            width: 25%;
+        }
+        .produ{
+            display: flex;
+            gap: 2rem;
+            margin-left: 30px;
+        }
+        .feett{
+            background-color: red;
+        }
+        .lasti{
+            color: white;
+            text-align: center;
+        }
+        .footerr{
+            display: flex;
+            gap: 5em;
+            background-color: red;
+            color: white;
+            margin-top: 2.5%;
+            
+        }
+        .rate{
+            font-size: 7.5px;
+            font-weight: 100;
+    
+        }
+      
+    
+        .topyyy ul li{
+            text-align: justify;
+            margin-top: -1%;
+            font-size: large;
+            display: inline-block;
+            padding: 1em;
+        }
+        .topooo ul li{
+            text-align: justify;
+            position: relative;
+            left: 400px;
+            list-style: none;
+            bottom: 55px;
+            padding: 20px;
+            float: left;  
+        }
+    
+       .story{
+        display: flex;
+        margin-left: 25px;
+       }  
+       .pai{
+        width: 35%;
+        height: 40%;
+       }
+       .our{
+        margin-right: 25px;
+       }
+       .vision{
+        display: flex;
+        margin-right: 25px;
+        gap: 5rem;
+        margin-left: 25px;
+       }
+       .pre{
+        width: 35%;
+        height: 40%;
+       }
+       .vis{
+        background-color: rgb(27, 3, 3);
+       }
+    .ours{
+        margin-left: 25px;
+    }
+    .ion{
+        text-align: center;
+    }
+    .ab{
+        text-align: center;
+    }
+    .least{
+        display: flex;
+        margin-left: 25px;
+    }
+    .tone{
+        width: 25%;
+        height: 40%;
+        padding-top: 10px;
+    }
+    .miss{
+        margin-right: 100px;
+    }
+    .feett3{
+        background-color: red;
+    }
+    .lasti3{
+        color: white;
+        text-align: center;
+    }
+    .footerr3{
+        display: flex;
+        gap: 2.5em;
+        background-color: red;
+        color: white;
+        margin-top: 2.5%;
+        
+    }
+    .topyyy4 ul li{
+        text-align: justify;
+        margin-top: -1%;
+        font-size: large;
+        display: inline-block;
+        padding: 1em;
+    }
+    .topooo4 ul li{
+        text-align: justify;
+        position: relative;
+        left: 200px;
+        list-style: none;
+        bottom: 55px;
+        padding: 20px;
+        float: left;  
+    }
+    .name{
+        margin-left: 17.5%;
+        padding: 7.5px;
+        border-radius: 2.5px;
+    }
+    .empty{
+        float: right;
+        background-color: red;
+        width: 150px;
+        height: 75px;
+        border-radius: 850px/10px 0px 0px 900px;
+    }
+        
+    
+    .fna{
+        background-color: white;
+        margin-left: 17.5%;
+        padding: 10px;
+        border-radius: 7.5px;
+    }
+    #person{
+        margin-left: 10%;
+    }
+        .fne{
+            background-color: white;
+            margin-left: 17.5%;
+            padding: 10px;
+            border-radius: 7.5px;
+            margin-top: 10%;
+        
+        }
+        .fno{
+            background-color: white;
+            margin-left: 17.5%;
+            padding: 10px;
+            border-radius: 7.5px;
+            margin-top: 10%;
+        
+        }
+        .fnu{
+            background-color: white;
+            margin-left: 17.5%;
+            padding: 10px;
+            border-radius: 7.5px;
+            margin-top: 10%;
+        }
+        .fnuu{
+            background-color: white;
+            margin-left: 17.5%;
+            padding: 10px;
+            border-radius: 7.5px;
+            margin-top: 10%;
+            padding-bottom: 5%;
+        
+        
+    
+        }
+        #sub{
+            margin-left: 20%;
+            margin-top: 5%;
+            padding: 1%;
+            border-radius: 5%;
+            background-color: red;
+        }
+        .lasto{
+            float: right;
+            width: 150px;
+            height: 350px;
+            background-color: red;
+            border-radius: 200px/200px 0px 0px 200px;
+        }
+    
+}
+    
+
