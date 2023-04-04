@@ -1,71 +1,4 @@
-/* @media only screen and (max-width :1200px){
-    .topnav{
-        display: grid;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .top1{
-        display: block;
-        grid-template-columns: repeat(1,1fr);
-    }
-    .top2{
-        display: block;
-        grid-template-columns: repeat(1,1fr); 
-        margin-right: 80%;
-        
-    }
-    .main{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
-    }
-    .products{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }.everything{
-        display: grid;
-        grid-template-columns: repeat(4,1fr);
-    }
-    .masian{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .man{
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    .footer{
-        display: grid;
-        grid-template-columns: repeat(5,1fr);
-    }
 
-} */
-/* @media all and (min-width:1024px) and (max-width:1280px){
-}
-@media all and (min-width:768px) and (max-width:1024px){
-}
-@media all and (min-width:480px) and (max-width:768px){
-}
-@media all and (min-width:480px) {
-}
-@media only screen and(min-width:40.063em) and (max-width:64em){
-}
-@media only screen and (min-width:64.063em) and (max-width:90em){
-}
-@media only screen and(min-width:90.063em) and (max-width:120em){
-}
-@media only screen and (min-width:120.063em){
-}
-@media screen and (oriented:portrait){
-}
-@media screen and (oriented:landscape){
-}
-@media  screen and(mix-device-width:480px) and (oriented:potrait){
-}
-@media  screen and(max-device-width:480px) and (oriented:landscape){
-}
-@media screen and (min-device-width:481px) and (orientation:portrait){
-}
-@media screen and (min-device-width:481px) and (orientation:landscape){
-} */
 @media only screen and (max-width:700px){
 
     .body{
@@ -78,13 +11,7 @@
         background-position: center;
         background-size: cover;
     }
-    /* .topnav ul li{
-        display: inline-block;
-        gap: 2rem;
-        padding: 30px;
-        margin-left: 20px;
-        display: flex;
-    } */
+   
     .top1 ul li{
         text-align: justify;
         margin-top: -2%;
@@ -119,34 +46,7 @@
         display: flex;
     }
     
-    /* .A{
-        height: 80%;
-        width: 40%;
-        background-image: linear-gradient(to bottom,lightblue,blue);
-        border-radius: 30%;
-    }
-    .B{
-        height: 80%;
-        width: 40%;
-        background-image: linear-gradient(to bottom,blue,red);
-        border-radius: 30%;
-    }
-    .C{
-        height: 80%;
-        width: 80%;
-        background-image: linear-gradient(to bottom,lightblue,red);
-        border-radius: 30%;
-    }
-    .puma{
-        display: flex;
-        gap: 2rem;
-        background-color: rgb(233, 222, 208);
-        border-radius: 15%;
-        width: 20%;
-        height: 120px;
-        
-        /* margin-right: 40px; */
-    /* } */
+   
     
     .Bigform{
         display: grid;
